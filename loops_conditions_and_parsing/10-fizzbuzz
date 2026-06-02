@@ -12,3 +12,5 @@ while [ $i -le 100 ];do
     	else
         echo $i
     fi
+
+done
