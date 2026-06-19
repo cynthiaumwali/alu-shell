@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # print username, id and directory
 
 while IFS= read -r line; do
