@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# print username, id and directory
 
 while IFS= read -r line; do
 	awk -F':' '{print $1,$3,$6}' <<< "$line"
