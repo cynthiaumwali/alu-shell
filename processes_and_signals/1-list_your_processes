@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # print loist of running processes
 
-ps -f
+ps aux --forest
