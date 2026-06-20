@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# stop me if you can
+
+
+pkill $(ps aux |  grep "4-to_infinity_and_beyond" | awk '{print $11}')
+~                                                                                  
+~                                                                                  
+~                                                                                  
+~                                                                                  
+~                                                                                  
+~
