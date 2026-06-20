@@ -2,7 +2,7 @@
 # stop me if you can
 
 
-pkill $(ps aux |  grep "4-to_infinity_and_beyond" | awk '{print $11}')
+pkill -f "4-to_infinity_and_beyond"
 ~                                                                                  
 ~                                                                                  
 ~                                                                                  
