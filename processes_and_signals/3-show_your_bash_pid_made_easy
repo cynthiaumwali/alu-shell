@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Show your Bash PID made easy
 
-ps aux | tail -n +2 | awk '{print $2, " bash"}' | grep "bash"
+ps aux | tail -n +2 | awk '{print $2, "bash"}' | grep "bash"
